@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global Styling*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../src/assets/images/Flat-Mountains.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 100vh;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+a {
+  color: dodgerblue;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 3rem;
+}
+
+.content-wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+/* Navigation */
+.navbar {
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  margin-bottom: 0;
+}
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: whitesmoke;
+}
+
+/* Blocks */
+.block {
+  height: 800px;
+  background: whitesmoke;
+  opacity: 0.5;
+  h1 {
+    color: black;
+  }
+}
