@@ -65,10 +65,32 @@ h5 {
 
 /* Blocks */
 .block {
-  height: 800px;
-  background: whitesmoke;
-  opacity: 0.5;
-  h1 {
+  height: auto;
+  padding: 1rem;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     color: black;
+  }
+
+  .profile-picture {
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px black;
+    display: block;
+    height: 20rem;
+    margin: auto;
+    width: 20rem;
+  }
+  .image-tag {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 2rem;
+  }
+  .button {
+    display: block;
+    margin: auto;
   }
 }
