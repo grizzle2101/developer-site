@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+    "public": "dist/developer-profile",
     "ignore": [
       "firebase.json",
       "**/.*",
