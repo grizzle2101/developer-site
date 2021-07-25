@@ -1,0 +1,26 @@
+Task List for developer-profile:
+--------------------------------
+-Startup:
+	-create scaffoling & general flow for website. - done
+	-layout logical sections for app - done
+	-navigation bar & pages - done
+
+-Deployment:
+	-check at best Webhook deployment process.
+
+-Customization:
+	-text blurb about me
+	-CV & certifications
+
+-Project Block
+	-mock up styling - header, text & image
+	-short description, techologies & tools, architecure.
+	-Live image view to deployed application, can click and navigate to deployed version.
+
+-First App Post
+	-Outline of first project to be done the Ecommerce Site or Moshify
+
+-Final Touches & polish:
+	-image & performance optimization
+	-rework the colour scheme
+	-3d animation

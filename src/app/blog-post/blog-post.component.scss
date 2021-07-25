@@ -1,0 +1,21 @@
+.post-container {
+  align-items: center;
+  border-radius: 25px;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+}
+
+/* Blocks */
+.block {
+  height: auto;
+  padding: 1rem;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: black;
+  }
+}
