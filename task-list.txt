@@ -24,3 +24,21 @@ Task List for developer-profile:
 	-image & performance optimization
 	-rework the colour scheme
 	-3d animation
+
+
+TaskList:
+---------
+
+Task - BlogPost Component:
+-layout & sections
+-collapse & expand
+-github link
+-preview of webstie feature
+
+Task - Rework Navigation:
+Only want the Navbar when you click through.
+Look at adding secondary router, only there is the navbar component rendered.
+
+
+Task - BlogPost Refactor:
+Once the layout is solid, look at making the component configureable.

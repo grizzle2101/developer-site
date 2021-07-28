@@ -4,6 +4,8 @@
   border: 1px white solid;
   display: flex;
   justify-content: center;
+  margin: auto;
+  width: 90%;
 }
 
 /* Blocks */
@@ -18,4 +20,13 @@
   h5 {
     color: black;
   }
+}
+
+.post-heading {
+  font-size: 5rem;
+  color: whitesmoke !important;
+  text-align: center;
+}
+
+.body {
 }
