@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, RouterEvent, NavigationEnd } from '@angular/router';
-import { TestBed } from '@angular/core/testing';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',

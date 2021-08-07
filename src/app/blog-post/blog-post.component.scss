@@ -2,7 +2,7 @@
   align-items: center;
   border-radius: 25px;
   border: 1px white solid;
-  display: flex;
+  display: block;
   justify-content: center;
   margin: auto;
   width: 90%;
@@ -28,5 +28,23 @@
   text-align: center;
 }
 
-.body {
+.post-text {
+  padding: 1rem;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
